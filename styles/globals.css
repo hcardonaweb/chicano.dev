@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('/fonts/JetBrainsMono-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('/fonts/JetbrainsMono-Italic.ttf');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+html,
+body {
+  font-family: 'Jetbrains Mono';
+}
+
+a,
+button { cursor: pointer; }
+
+.max-w-custom { max-width: 960px; }
+
+h1 { font-size: 40px; }
+
+svg { height: 20px;}
