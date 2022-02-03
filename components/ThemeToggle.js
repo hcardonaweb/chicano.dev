@@ -10,7 +10,7 @@ const {theme, setTheme} = useTheme();
     <button
       aria-label="Toggle Dark Mode"
       type="button"
-      className="bg-pearl-clear dark:bg-onyx-clear p-2 h-10 w-10 order-2 rounded-md"
+      className="rounded-md focus:outline-none hover:ring-4 focus:ring-electric-purple hover:ring-electric-purple focus:electric-purple hover:electric-purple bg-pearl-clear dark:bg-onyx-clear p-2 order-2"
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
       { theme === 'dark' ? <Moon /> : <Sun /> }
     </button>

@@ -10,6 +10,7 @@ module.exports = {
       'onyx-clear': 'rgba(245, 245, 245, 0.05)',
       'pearl': '#F5F5F5',
       'pearl-clear': 'rgba(26, 26, 31, 0.05)',
+      'electric-purple': 'rgb(82, 85, 226)',
     },
     extend: {},
   },

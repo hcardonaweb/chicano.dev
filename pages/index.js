@@ -16,9 +16,8 @@ export default function Home() {
           />
       </Head>
       <div className="page-header">
-        <h1>hector</h1>
-        <p>friendly neighborhood mexican &amp;</p>
-        <p><i>front-end web developer</i> from southern california</p>
+        <h1>Hi, I'm Hector!</h1>
+        <p><i>front-end web developer</i> focused on javascript, html &amp; css</p>
       </div>
       <div className="py-4">
         <div className="py-12">

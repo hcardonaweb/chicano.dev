@@ -16,16 +16,22 @@
   font-weight: 400;
   font-display: swap;
 }
+
 html,
 body {
   font-family: 'Jetbrains Mono';
 }
 
+::selection {
+  background: rgb(82, 85, 226);
+  color: #F5F5F5;
+}
+
 a,
 button { cursor: pointer; }
+
+svg { height: 20px;}
 
 .max-w-custom { max-width: 960px; }
 
 h1 { font-size: 40px; }
-
-svg { height: 20px;}
