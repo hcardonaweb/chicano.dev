@@ -9,7 +9,7 @@ const Manga = () => {
         <title>Hector Cardona - Manga</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="page-header">
+      <div className="page-header mt-8">
         <h1>Manga</h1>
         <p className="text-slate-500 font-medium">
           here is a shortlist of some of my favorite manga

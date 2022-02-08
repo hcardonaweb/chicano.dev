@@ -14,6 +14,9 @@ const Nav = () => {
               <Link href="projects">projects</Link>
             </li>
             <li className="text-sm">
+              <Link href="uses">uses</Link>
+            </li>
+            <li className="text-sm">
               <Link href="manga">manga</Link>
             </li>
           </ul>

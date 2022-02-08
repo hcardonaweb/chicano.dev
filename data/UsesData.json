@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "sectionName": "Software",
+    "sectionEmoji": "👨🏻‍💻",
+    "items": [
+      {
+        "name": "VS Code",
+        "href": "https://code.visualstudio.com/",
+        "description": "The editor I used to code my portfolio. It’s ✨ super aesthetic ✨."
+      },
+      {
+        "name": "PhpStorm",
+        "href": "https://www.jetbrains.com/phpstorm/",
+        "description": "My professional IDE. A powerhouse that never disappoints."
+      }
+    ]
+  }
+]

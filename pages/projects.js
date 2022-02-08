@@ -1,10 +1,9 @@
 const Projects = () => {
   return (
-    <div className="page-header">
-      <h1>hector</h1>
-      <p>friendly neighborhood mexican &amp;</p>
+    <div className="page-header mt-8">
+      <h1>Projects</h1>
       <p>
-        <i>front-end web developer</i> from southern california
+        hey look! check out my stuff 😎
       </p>
     </div>
   );
