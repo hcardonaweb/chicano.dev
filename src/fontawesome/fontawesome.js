@@ -1,4 +1,4 @@
-import { library } from '@fortawesome/fontawesome-svg-core';
+import { library } from "@fortawesome/fontawesome-svg-core";
 
 import {
   faCodepen,
@@ -6,13 +6,6 @@ import {
   faReact,
   faInstagram,
   faTwitter,
-} from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
 
-
-library.add(
-  faCodepen,
-  faGithub,
-  faReact,
-  faInstagram,
-  faTwitter,
-);
+library.add(faCodepen, faGithub, faReact, faInstagram, faTwitter);

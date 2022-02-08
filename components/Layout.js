@@ -1,18 +1,16 @@
-import Nav from "./Nav"
-import Footer from "./Footer"
+import Nav from "./Nav";
+import Footer from "./Footer";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
-    <div className="mx-auto container max-w-custom px-4 overflow-hidden">
-      <Nav />
-      <main className="py-4">
-        {children}
-      </main>
-      <Footer />
-    </div>
+      <div className="max-w-custom container mx-auto overflow-hidden px-4">
+        <Nav />
+        <main className="py-4">{children}</main>
+        <Footer />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

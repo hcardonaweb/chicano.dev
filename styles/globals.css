@@ -1,17 +1,17 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @font-face {
-  font-family: 'Jetbrains Mono';
-  src: url('/fonts/JetBrainsMono-Regular.ttf');
+  font-family: "Jetbrains Mono";
+  src: url("/fonts/JetBrainsMono-Regular.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Jetbrains Mono';
-  src: url('/fonts/JetbrainsMono-Italic.ttf');
+  font-family: "Jetbrains Mono";
+  src: url("/fonts/JetbrainsMono-Italic.ttf");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -19,19 +19,27 @@
 
 html,
 body {
-  font-family: 'Jetbrains Mono';
+  font-family: "Jetbrains Mono";
 }
 
 ::selection {
   background: rgb(82, 85, 226);
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 a,
-button { cursor: pointer; }
+button {
+  cursor: pointer;
+}
 
-svg { height: 20px;}
+svg {
+  height: 20px;
+}
 
-.max-w-custom { max-width: 960px; }
+.max-w-custom {
+  max-width: 960px;
+}
 
-h1 { font-size: 40px; }
+h1 {
+  font-size: 40px;
+}

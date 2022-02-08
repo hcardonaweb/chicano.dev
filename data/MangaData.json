@@ -1,27 +1,27 @@
-  [
-    {
-      "id": 1,
-      "title": "Attack On Titan",
-      "image":"aot"
-    },
-    {
-      "id": 2,
-      "title": "Jujutsu Kaisen",
-      "image":"jjk"
-    },
-    {
-      "id": 3,
-      "title": "Kakegurui",
-      "image":"kakegurui"
-    },
-    {
-      "id": 4,
-      "title": "One Punch Man",
-      "image":"opm"
-    },
-    {
-      "id": 5,
-      "title": "Chainsaw Man",
-      "image":"chainsawman"
-    }
-  ]
+[
+  {
+    "id": 1,
+    "title": "Attack On Titan",
+    "image": "aot"
+  },
+  {
+    "id": 2,
+    "title": "Jujutsu Kaisen",
+    "image": "jjk"
+  },
+  {
+    "id": 3,
+    "title": "Kakegurui",
+    "image": "kakegurui"
+  },
+  {
+    "id": 4,
+    "title": "One Punch Man",
+    "image": "opm"
+  },
+  {
+    "id": 5,
+    "title": "Chainsaw Man",
+    "image": "chainsawman"
+  }
+]

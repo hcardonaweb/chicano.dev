@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import MangaCard from '../components/MangaCard'
-import Kakegurui from '../public/kakegurui.jpg'
+import Head from "next/head";
+import MangaCard from "../components/MangaCard";
+import Kakegurui from "../public/kakegurui.jpg";
 
 const Manga = () => {
   return (
@@ -10,9 +10,7 @@ const Manga = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="page-header">
-        <h1>
-          Manga
-        </h1>
+        <h1>Manga</h1>
         <p className="text-slate-500 font-medium">
           here is a shortlist of some of my favorite manga
         </p>
@@ -21,7 +19,7 @@ const Manga = () => {
         <MangaCard />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Manga
+export default Manga;
