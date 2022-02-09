@@ -2,12 +2,12 @@ import UsesData from "../data/UsesData.json"
 
 const Uses = () => {
   return (
-    <article className="my-12">
+    <article className="my-12 grid gap-6">
       {UsesData.map((use, index) => (
         <section 
           key={index} 
           className={use.id}>
-          <h2 className="my-2">
+          <h2 className="mb-2">
             <i>{use.sectionName} </i>
             {use.sectionEmoji}
           </h2>

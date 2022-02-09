@@ -13,6 +13,28 @@
         "name": "PhpStorm",
         "href": "https://www.jetbrains.com/phpstorm/",
         "description": "My professional IDE. A powerhouse that never disappoints."
+      },
+      {
+        "name": "Fig",
+        "href": "https://fig.io/",
+        "description": "VS Code style autocomplete in your terminal. Game Changer!"
+      },
+      {
+        "name": "Hyper",
+        "href": "https://hyper.is/",
+        "description": "A slick go to terminal."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "sectionName": "Hardware",
+    "sectionEmoji": "💻",
+    "items": [
+      {
+        "name": "2019 15\" MacBook Pro",
+        "href": "https://support.apple.com/kb/SP794?locale=en_US",
+        "description": "My work computer that helps me get the job done."
       }
     ]
   }

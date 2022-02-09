@@ -9,7 +9,7 @@ const ToggleButton = () => {
     <button
       aria-label="Toggle Dark Mode"
       type="button"
-      className="transition-300 focus-outline:electric-purple hover:electric-purple order-2 rounded-md bg-pearl-clear p-2 hover:ring-4 hover:ring-electric-purple focus:outline-none focus:ring-electric-purple dark:bg-onyx-clear"
+      className="transition-300 rounded-md bg-pearl-clear p-2 dark:bg-onyx-clear"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       {theme === "dark" ? <Moon /> : <Sun />}
