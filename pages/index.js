@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Technologies from "../components/Technologies";
 import "../src/fontawesome/fontawesome";
 
 export default function Home() {
@@ -20,16 +21,26 @@ export default function Home() {
       </Head>
       <div className="page-header mt-8">
         <h1>Hi, I'm Hector!</h1>
-        <p>
-          <i>front-end web developer</i> focused on javascript, html &amp; css
-        </p>
+        <p className="text-xl">💻 🎧 ☕️</p>
       </div>
-      <div className="py-4">
-        <div className="py-12">
-          <h3 className="pearl dark:onyx font-medium">Hi there!</h3>
-          <p className="pearl dark:onyx mt-2 text-sm">
-            We are currenlty under construction. Come back Soon!
-          </p>
+      <div className="my-10">
+        <div className="grid-gap-2 my-2 grid md:grid-cols-2">
+          <div className="mb-8">
+            <p className="mb-4 text-md">
+              A <i>front-end web developer</i> focused on Html, Css &amp;
+              JavaScript. By day I am a Web Developer at TM5150. By night I am
+              just like you, trying to get better at my craft one line of code
+              at a time. If I’m not reading a book/manga then I’m probably
+              binging a Netflix series whilst <i>slaying</i> some tacos. I
+              occasionally write on my blog about what I’m learning or my
+              current technical roadblock. If you feel like following a normal
+              person on Twitter, click here. No threads, pinky promise.
+            </p>
+            <p className="text-sm">- Your Friendly Neighborhood Chicano</p>
+          </div>
+          <div>
+            <Technologies />
+          </div>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ const Uses = () => {
                   <a 
                     href={item.href} 
                     target="_blank"
-                    className="hover:underline underline-offset-2 decoration-electric-purple decoration-2">
+                    className="underline underline-offset-2 decoration-electric-purple decoration-2">
                     {item.name}:
                   </a>
                   <span> {item.description}</span>

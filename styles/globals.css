@@ -21,6 +21,12 @@ html,
 body {
   font-family: "Jetbrains Mono";
 }
+* {
+  scrollbar-color: #5255e2;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #5255e2;
+}
 
 ::selection {
   background: rgb(82, 85, 226);

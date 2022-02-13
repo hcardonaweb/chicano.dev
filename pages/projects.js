@@ -2,9 +2,20 @@ const Projects = () => {
   return (
     <div className="page-header mt-8">
       <h1>Projects</h1>
-      <p>
-        hey look! check out my stuff 😎
-      </p>
+      <p>behold! my stuff 😎</p>
+      <div className="my-12">
+        <a
+          href="#"
+          class="block max-w-sm rounded-lg border p-6 hover:shadow-md"
+        >
+          <h5 class="mb-2 text-2xl">
+            kanye.edu
+          </h5>
+          <p>
+            Need to hear some facts. Learn from none other than the man himself, Ye 🌎.
+          </p>
+        </a>
+      </div>
     </div>
   );
 };
