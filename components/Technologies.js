@@ -4,13 +4,13 @@ import TechData from "../data/TechData.json"
 const Technologies = () => {
   return (
     <>
-      <div className="md:ml-6 grid grid-cols-3 gap-2 h-full">
+      <div className="grid h-full grid-cols-3 gap-y-4 md:ml-6">
         {TechData.map((tech) => (
-            <FontAwesomeIcon
-              key={tech.id}
-              className="m-auto h-10"
-              icon={["fab", tech.icon]}
-            />
+          <FontAwesomeIcon
+            key={tech.id}
+            className="m-auto h-10"
+            icon={["fab", tech.icon]}
+          />
         ))}
       </div>
     </>

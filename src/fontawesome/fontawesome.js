@@ -15,8 +15,7 @@ import {
   faWordpressSimple,
   faShopify,
   faNpm,
-  faGitSquare
-  
+  faGitSquare,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
