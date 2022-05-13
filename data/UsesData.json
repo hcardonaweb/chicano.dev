@@ -77,9 +77,14 @@
         "description": "The Ultimate USB-C hub. The heart of my operation."
       },
       {
+        "name": "Keychron Q1",
+        "href": "",
+        "description": "My daily use mechanical keyboard. Not so clicky."
+      },
+      {
         "name": "Keychron K3 v2",
         "href": "",
-        "description": "My daily low profile mechanical keyboard. <i>Clickity Click!</i>"
+        "description": "My backup low profile mechanical keyboard. Clickity Click!"
       }
     ]
   },
