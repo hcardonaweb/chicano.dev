@@ -6,17 +6,17 @@ const Nav = () => {
     <div className="nav-wrap">
       <nav className="mt-8 flex items-center justify-between">
         <div className="flex space-x-5">
-          <a className="logo">
-            <Link href="/">&#8757;</Link>
+          <a className="logo text-xl">
+            <Link href="/">🌮</Link>
           </a>
           <ul className="flex items-center space-x-3">
-            <li className="text-sm">
+            <li className="text-md">
               <Link href="projects">projects</Link>
             </li>
-            <li className="text-sm">
+            <li className="text-md">
               <Link href="uses">uses</Link>
             </li>
-            <li className="text-sm">
+            <li className="text-md">
               <Link href="manga">manga</Link>
             </li>
           </ul>

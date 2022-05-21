@@ -7,7 +7,7 @@ const MangaCard = () => {
         <>
           <div
             key={manga.id}
-            className="group relative my-4 flex h-40 flex-col rounded-lg transition duration-300 ease-in-out hover:shadow-lg md:h-48"
+            className="group relative my-4 flex h-40 flex-col rounded-lg transition duration-300 ease-in-out hover:shadow-xl md:h-48"
           >
             <div
               className="absolute h-full w-full rounded-lg opacity-100 transition duration-300 ease-in-out group-hover:opacity-25"
