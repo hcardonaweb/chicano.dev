@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const TechSlider = () => {
   SwiperCore.use([Autoplay]);
   return (
-    <section>
+    <section className="techStack">
       <Swiper
         // install Swiper modules
         modules={[Autoplay]}

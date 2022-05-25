@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Technologies from "../components/Technologies";
 import "../src/fontawesome/fontawesome";
 import TechSlider from "../components/TechSlider";
+import FeaturedProjects from "../components/FeaturedProjects";
 
 export default function Home() {
   return (
@@ -37,6 +37,7 @@ export default function Home() {
           </div>
         </div>      
         <TechSlider />
+        <FeaturedProjects />
       </div>
     </div>
   );
