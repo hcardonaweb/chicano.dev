@@ -53,3 +53,7 @@ h1 {
 h2 {
   font-size: 25px;
 }
+
+section.techStack {
+  margin: 4em 0;
+}

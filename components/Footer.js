@@ -1,3 +1,4 @@
+import Socials from "./Socials";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -10,11 +11,8 @@ const Footer = () => {
           proudly hosted on Vercel ▲
         </p>
       </div>
-      <div className="socials flex items-center space-x-2">
-        <FontAwesomeIcon className="px-1" icon={["fab", "codepen"]} />
-        <FontAwesomeIcon className="px-1" icon={["fab", "github"]} />
-        <FontAwesomeIcon className="px-1" icon={["fab", "instagram"]} />
-        <FontAwesomeIcon className="px-1" icon={["fab", "twitter"]} />
+      <div className="socials flex items-center space-x-2">    
+        <Socials />
       </div>
     </div>
   );
