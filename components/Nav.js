@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ToggleButton from "./ThemeToggle";
+import Avatar from "./Avatar";
 
 const Nav = () => {
   return (
@@ -7,7 +8,7 @@ const Nav = () => {
       <nav className="mt-8 flex items-center justify-between">
         <div className="flex space-x-5">
           <a className="logo text-xl">
-            <Link href="/">🌮</Link>
+            <Avatar />
           </a>
           <ul className="flex items-center space-x-3">
             <li className="text-md">
