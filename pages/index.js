@@ -29,13 +29,14 @@ export default function Home() {
           <div className="mb-8">
             <p className="text-md mb-4">
               A <i>front-end web developer</i> focused on Html, CSS &amp;
-              JavaScript. By day I am a Front-End Web Developer. By night I am 
-              working on my never ending list of side projects. If you feel like following a normal
-              person on Twitter, click here. No threads, pinky promise.
+              JavaScript. By day I am a Front-End Web Developer. By night I am
+              working on my never ending list of side projects. If you feel like
+              following a normal person on Twitter, click here. No threads,
+              pinky promise.
             </p>
             <p className="text-sm">- Your Friendly Neighborhood Chicano</p>
           </div>
-        </div>      
+        </div>
         <TechSlider />
         <FeaturedProjects />
       </div>
