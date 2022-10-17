@@ -1,11 +1,11 @@
-import { ThemeProvider } from "next-themes";
-import Layout from "../components/Layout";
-import "../styles/globals.css";
-import { useEffect } from "react";
+import '../styles/globals.css'
 
+import * as gtag from "../data/Gtag";
+
+import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
-import * as gtag from "../lib/gtag";
+
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -20,15 +20,16 @@ function MyApp({ Component, pageProps }) {
   }, [router.events]);
 
   return (
-    <ThemeProvider attribute="class">
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-G4RK7FQL68`}
-      />
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
+    <>
+    <Script
+      strategy="afterInteractive"
+      src={`https://www.googletagmanager.com/gtag/js?id=G-G4RK7FQL68`}
+    />
+    <Script
+      strategy="afterInteractive"
+      id="chicanodev-ga4"
+      dangerouslySetInnerHTML={{
+        __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -36,13 +37,11 @@ function MyApp({ Component, pageProps }) {
                 page_path: window.location.pathname,
               });
             `,
-        }}
-      />
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </ThemeProvider>
-  );
+      }}
+    />
+    <Component {...pageProps} />
+    </>
+  )
 }
 
-export default MyApp;
+export default MyApp
