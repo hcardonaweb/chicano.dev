@@ -20,7 +20,7 @@ export default function Home() {
         ></meta>
 
         <meta property="og:type" content="website"></meta>
-        <meta property="og:url" content="https://metatags.io/"></meta>
+        <meta property="og:url" content="https://chicanodev.vercel.app/"></meta>
         <meta
           property="og:title"
           content="Hector Cardona - Front-End Web Developer"
@@ -32,7 +32,10 @@ export default function Home() {
         <meta property="og:image" content="/chicano-dev-meta.png"></meta>
 
         <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta property="twitter:url" content="https://metatags.io/"></meta>
+        <meta
+          property="twitter:url"
+          content="https://chicanodev.vercel.app/"
+        ></meta>
         <meta
           property="twitter:title"
           content="Hector Cardona - Front-End Web Developer"
