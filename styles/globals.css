@@ -15,7 +15,9 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-weight: bold; }
+h6 {
+  font-weight: bold;
+}
 
 a {
   color: inherit;
@@ -26,9 +28,17 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: white;
-    background-color: #282a36;
-  }
+body {
+  color: white;
+  background-color: hsla(225, 26%, 51%, 1);
+  background-image: radial-gradient(
+      at 24% 41%,
+      hsla(135, 93%, 65%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 45% 89%, hsla(326, 100%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 72% 33%, hsla(265, 88%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 63% 76%, hsla(191, 97%, 77%, 1) 0px, transparent 50%);
 }
+
+/* @media (prefers-color-scheme: dark) { } */
