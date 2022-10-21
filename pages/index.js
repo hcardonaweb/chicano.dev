@@ -46,7 +46,7 @@ export default function Home() {
         ></meta>
         <meta
           property="twitter:image"
-          content="https://chicanodev.vercel.app/chicano-dev-meta.png"
+          content="https://chicanodev.vercel.app/meta-image.png"
         ></meta>
 
         <link rel="icon" href="/chicano-flame.png" />
