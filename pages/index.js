@@ -44,7 +44,10 @@ export default function Home() {
           property="twitter:description"
           content="Hi I'm Hector a Front-End Web Developer based out of San Diego, CA."
         ></meta>
-        <meta property="twitter:image" content="/chicano-dev-meta.png"></meta>
+        <meta
+          property="twitter:image"
+          content="https://chicanodev.vercel.app/chicano-dev-meta.png"
+        ></meta>
 
         <link rel="icon" href="/chicano-flame.png" />
       </Head>
