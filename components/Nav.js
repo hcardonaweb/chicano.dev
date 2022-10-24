@@ -1,19 +1,16 @@
+import Link from "next/link";
 const Nav = () => {
   return (
     <nav className="flex items-center justify-between p-4">
-      <a
-        className="inline-flex h-10 w-10 items-center justify-center"
-        href="/"
-      >
+      <a className="inline-flex h-10 w-10 items-center justify-center" href="/">
         🔥
       </a>
-      {/*
       <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
         <li className="hidden lg:block">
-          <a className="rounded-lg px-3 py-2" href="/"> Home </a>
+          <Link className="rounded-lg px-3 py-2" href="projects">
+            Projects
+          </Link>
         </li>
-
-        <li><a className="rounded-lg px-3 py-2" href=""> Projects </a></li>
 
         <li>
           <a
@@ -39,8 +36,7 @@ const Nav = () => {
           </a>
         </li>
       </ul>
-      */}
     </nav>
-    )
-}
+  );
+};
 export default Nav;
