@@ -29,19 +29,10 @@ a {
 }
 
 body {
-  /*color: white;
-  background-color: #282a36;
-*/
-  background-color: hsla(225, 26%, 51%, 1);
-  background-image: radial-gradient(
-      at 24% 41%,
-      hsla(135, 93%, 65%, 1) 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 45% 89%, hsla(326, 100%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 72% 33%, hsla(265, 88%, 78%, 1) 0px, transparent 50%),
-    radial-gradient(at 63% 76%, hsla(191, 97%, 77%, 1) 0px, transparent 50%);
-  background-repeat: no-repeat;
+  color: #f5f5f5;
+  background-color: #1a1a1f;
 }
 
-/* @media (prefers-color-scheme: dark) { } */
+.hero {
+  min-height: 80vh;
+}
