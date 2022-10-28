@@ -6,7 +6,7 @@ import "dracula-ui/styles/dracula-ui.css";
 
 export default function Home() {
   return (
-    <div className="drac-black-secondary">
+    <>
       <Head>
         <title>Hector Cardona - Front-End Web Developer</title>
         <meta
@@ -52,6 +52,6 @@ export default function Home() {
       </Head>
       <Hero />
       <Projects />
-    </div>
+    </>
   );
 }
