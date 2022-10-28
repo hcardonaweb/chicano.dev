@@ -36,3 +36,7 @@ body {
 .hero {
   min-height: 80vh;
 }
+
+.charcoal-clear {
+  background-color: rgba(245, 245, 245, 0.05);
+}
