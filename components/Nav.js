@@ -5,11 +5,11 @@ const Nav = () => {
   return (
     <nav
       aria-label="Site Nav"
-      class="max-w-custom container mx-auto flex items-center justify-between my-4 p-4"
+      className="max-w-custom container mx-auto flex items-center justify-between my-4 p-4"
     >
       <a className="inline-flex h-10 w-10 items-center justify-center" href="/">
         <Image
-          src="/avatar.png"
+          src="/img/avatar.png"
           alt="Picture of the author"
           width={35}
           height={50}
