@@ -15,7 +15,7 @@ const Nav = () => {
           height={50}
         />
       </a>
-      <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
+      <ul className="flex items-center gap-4 text-md font-medium text-gray-500">
         <li>
           <Link className="rounded-lg px-3 py-2" href="about">
             About
@@ -30,7 +30,7 @@ const Nav = () => {
 
         <li>
           <Link className="rounded-lg px-3 py-2" href="faqs">
-            u_u
+            🌮
           </Link>
         </li>
       </ul>
