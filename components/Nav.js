@@ -9,7 +9,7 @@ const Nav = () => {
     >
       <a className="inline-flex h-10 w-10 items-center justify-center" href="/">
         <Image
-          src="/img/avatar.png"
+          src="https://mrqexlsyjusnkvogusgj.supabase.co/storage/v1/object/public/chicanodev/assets/img/avatar.png"
           alt="Picture of the author"
           width={35}
           height={50}
@@ -30,11 +30,12 @@ const Nav = () => {
 
         <li>
           <Link className="rounded-lg px-3 py-2" href="faqs">
-            🌮
+            ⚡️
           </Link>
         </li>
       </ul>
     </nav>
   );
 };
+
 export default Nav;
