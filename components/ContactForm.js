@@ -2,6 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   const [result, setResult] = React.useState("");
+
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
@@ -24,7 +25,7 @@ const ContactForm = () => {
   };
 
   return (
-    <>
+    <div className="FormApp">
       <div className="flex items-center mt-20">
         <div className="container mx-auto">
           <div className="mx-auto my-10">
@@ -39,7 +40,7 @@ const ContactForm = () => {
               </p>
             </div>
             <div className="form-wrapper">
-              <form onSubmit={onSubmit} id="form">
+              <form onSubmit={onSubmit}>
                 <input
                   type="hidden"
                   name="subject"
@@ -48,10 +49,7 @@ const ContactForm = () => {
 
                 <div className="flex mb-6 space-x-4">
                   <div className="w-full md:w-1/2">
-                    <label
-                      htmlFor="fname"
-                      className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
-                    >
+                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
                       First Name
                     </label>
                     <input
@@ -63,10 +61,7 @@ const ContactForm = () => {
                     />
                   </div>
                   <div className="w-full md:w-1/2">
-                    <label
-                      htmlFor="surname"
-                      className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
-                    >
+                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
                       Last Name
                     </label>
                     <input
@@ -81,10 +76,7 @@ const ContactForm = () => {
 
                 <div className="flex mb-6 space-x-4">
                   <div className="w-full md:w-1/2">
-                    <label
-                      htmlFor="email"
-                      className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
-                    >
+                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
                       Email Address
                     </label>
                     <input
@@ -97,10 +89,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className="w-full md:w-1/2">
-                    <label
-                      htmlFor="phone"
-                      className="block text-sm mb-2 text-gray-600 dark:text-gray-400"
-                    >
+                    <label className="block text-sm mb-2 text-gray-600 dark:text-gray-400">
                       Phone Number
                     </label>
                     <input
@@ -112,10 +101,7 @@ const ContactForm = () => {
                   </div>
                 </div>
                 <div className="mb-6">
-                  <label
-                    htmlFor="message"
-                    className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
-                  >
+                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
                     Your Message
                   </label>
 
@@ -129,11 +115,6 @@ const ContactForm = () => {
                   ></textarea>
                 </div>
                 <div className="mb-6">
-                  <input
-                    type="hidden"
-                    name="redirect"
-                    value="https://web3forms.com/success"
-                  ></input>
                   <button
                     type="submit"
                     className="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
@@ -142,12 +123,20 @@ const ContactForm = () => {
                   </button>
                 </div>
               </form>
-              <span id="result">{result}</span>
+              <div className="text-center hidden">
+                <h3 class="m-auto text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                  Thanks for reaching out! <br />
+                  <span className="text-blue-600">
+                    I will be in touch shortly.
+                  </span>
+                </h3>
+              </div>
+              {/* <span>{result}</span> */}
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
