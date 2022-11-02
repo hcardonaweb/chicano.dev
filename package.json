@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.0.5",
     "dracula-ui": "^1.0.3",
     "next": "12.3.1",
     "react": "18.2.0",
