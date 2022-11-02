@@ -1,7 +1,7 @@
 import React from "react";
 
 const ContactForm = () => {
-  const [result, setResult] = React.useState("");
+  const [result, setResult] = React.useState(""); // result is hidden
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -123,7 +123,7 @@ const ContactForm = () => {
                   </button>
                 </div>
               </form>
-              <div className="text-center hidden">
+              <div className="text-center">
                 <h3 class="m-auto text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Thanks for reaching out! <br />
                   <span className="text-blue-600">
