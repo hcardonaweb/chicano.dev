@@ -1,41 +1,33 @@
-import { supabase } from "../utils/supabase";
-
-export const getStaticProps = async () => {
-  const { data: projects } = await supabase.from("projects").select("*");
-
-  return {
-    props: {
-      projects,
-    },
-  };
-};
-
 const ProjectCard = ({ projects }) => {
-  console.log({ projects });
+  console.log(projects);
+
   return (
-    <>
-      <pre className="text-gray-500">[{JSON.stringify(projects)}]</pre>
-      <a href="#" className="block overflow-hidden rounded-lg">
-        <img
-          alt="Office"
-          src="Compound-Solutions.jpg"
-          className="h-56 w-full object-cover object-top"
-        />
+    <div className="grid grid-cols md:grid-cols-2 gap-6">
+      {projects.map((project) => (
+        <a
+          href={project.project_domain}
+          target="_blank"
+          className="block overflow-hidden rounded-lg"
+        >
+          <img
+            alt={project.title}
+            src={project.project_img_url}
+            className="h-56 w-full object-cover object-top"
+          />
 
-        <div className="p-4 charcoal-clear">
-          <p className="text-xs text-gray-500">
-            chicano.dev <span></span>
-          </p>
-
-          <h3 className="text-sm text-white">This website!</h3>
-
-          <p className="mt-1 text-xs text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-            nobis aliquid accusamus? Sint, sequi voluptas.
-          </p>
-        </div>
-      </a>
-    </>
+          <div className="p-4 charcoal-clear">
+            {/* <p className="inline-flex items-center mb-2 py-1 px-2 text-xs capitalize font-medium text-sky-600 bg-sky-100 rounded"> */}
+            <p
+              className={`inline-flex items-center mb-2 py-1 px-2 text-xs capitalize font-medium bg-sky-100 ${project.project_type}  rounded`}
+            >
+              {project.project_type}
+            </p>
+            <h3 className="text-md text-white">{project.title}</h3>
+            <p className="mt-1 text-sm text-gray-500">{project.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
   );
 };
 

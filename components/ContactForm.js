@@ -26,8 +26,8 @@ const ContactForm = () => {
 
   return (
     <div className="FormApp">
-      <div className="flex items-center mt-20">
-        <div className="container mx-auto">
+      <div className="flex items-center my-20">
+        <div className="container mx-auto max-w-4xl">
           <div className="mx-auto my-10">
             <div className="text-center mb-10">
               <h1 className="my-3 text-2xl font-semibold text-gray-700 dark:text-gray-200">
@@ -123,6 +123,7 @@ const ContactForm = () => {
                   </button>
                 </div>
               </form>
+              {/* 
               <div className="text-center">
                 <h3 class="m-auto text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Thanks for reaching out! <br />
@@ -131,6 +132,7 @@ const ContactForm = () => {
                   </span>
                 </h3>
               </div>
+               */}
               {/* <span>{result}</span> */}
             </div>
           </div>

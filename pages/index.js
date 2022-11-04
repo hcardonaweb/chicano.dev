@@ -4,7 +4,20 @@ import Projects from "./projects";
 
 import "dracula-ui/styles/dracula-ui.css";
 
-export default function Home() {
+import supabase from "../utils/supabase.js";
+
+export async function getStaticProps() {
+  let { data: projects, error } = await supabase.from("projects").select();
+
+  return {
+    props: {
+      projects,
+    },
+    revalidate: 10,
+  };
+}
+
+export default function Home({ projects }) {
   return (
     <>
       <Head>
@@ -51,7 +64,7 @@ export default function Home() {
         <link rel="icon" href="/chicano-flame.png" />
       </Head>
       <Hero />
-      <Projects />
+      <Projects projects={projects} />
     </>
   );
 }

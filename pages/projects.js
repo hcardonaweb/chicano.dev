@@ -1,9 +1,9 @@
 import ProjectCard from "../components/ProjectCard";
 
-const Projects = () => {
+const Projects = ({ projects }) => {
   return (
-    <div id="peojects" class="grid grid-cols md:grid-cols-2 gap-6">
-      <ProjectCard />
+    <div id="projects">
+      <ProjectCard projects={projects} />
     </div>
   );
 };

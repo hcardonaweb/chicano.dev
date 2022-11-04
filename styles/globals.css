@@ -40,3 +40,13 @@ body {
 .charcoal-clear {
   background-color: rgba(245, 245, 245, 0.05);
 }
+
+.wordpress {
+  color: rgb(2 132 199);
+  background-color: rgb(224 242 254);
+}
+
+.shopify {
+  color: rgb(22 163 74);
+  background-color: rgb(220 252 231);
+}

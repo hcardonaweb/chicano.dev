@@ -6,15 +6,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ["mrqexlsyjusnkvogusgj.supabase.co"],
-  },
-  async redirects() {
-    return [
-      {
-        source: "/projects",
-        destination: "/",
-        permanent: true,
-      },
-    ];
+    domains: ["kdmitljkulczzntmmcbn.supabase.co"],
   },
 };

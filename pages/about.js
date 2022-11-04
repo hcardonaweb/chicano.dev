@@ -1,5 +1,3 @@
-import ContactForm from "../components/ContactForm";
-
 const About = () => {
   return (
     <>
@@ -21,9 +19,7 @@ const About = () => {
         </div>
         <div className="flex justify-center items-center"></div>
       </div>
-      <div>
-        <ContactForm />
-      </div>
+      <div>{/* add something else in here */}</div>
     </>
   );
 };
