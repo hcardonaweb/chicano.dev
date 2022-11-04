@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
-import Projects from "./projects";
+import ProjectCard from "../components/ProjectCard";
 
 import "dracula-ui/styles/dracula-ui.css";
 
@@ -64,7 +64,7 @@ export default function Home({ projects }) {
         <link rel="icon" href="/chicano-flame.png" />
       </Head>
       <Hero />
-      <Projects projects={projects} />
+      <ProjectCard projects={projects} />
     </>
   );
 }
