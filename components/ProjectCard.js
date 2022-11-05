@@ -12,7 +12,7 @@ const ProjectCard = ({ projects }) => {
           <img
             alt={project.title}
             src={project.project_img_url}
-            className="h-56 w-full object-cover object-top"
+            className="h-60 w-full object-cover object-top"
           />
 
           <div className="p-4 charcoal-clear">
