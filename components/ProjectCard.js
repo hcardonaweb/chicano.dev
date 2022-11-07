@@ -1,6 +1,4 @@
 const ProjectCard = ({ projects }) => {
-  console.log(projects);
-
   return (
     <div className="grid grid-cols md:grid-cols-2 gap-6">
       {projects.map((project) => (
