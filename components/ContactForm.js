@@ -26,14 +26,14 @@ const ContactForm = () => {
 
   return (
     <div className="FormApp">
-      <div className="flex items-center my-20">
+      <div className="flex items-center md:my-20">
         <div className="container mx-auto max-w-4xl">
           <div className="mx-auto my-10">
             <div className="text-center mb-10">
               <h1 className="my-3 text-2xl font-semibold text-gray-700 dark:text-gray-200">
                 Reach Out!
               </h1>
-              <p className="text-gray-500">
+              <p className="text-gray-400">
                 Like what you see? Reach out by sending me an email, or feel
                 free to use any of the social media links at the bottom of this
                 page.
@@ -133,8 +133,10 @@ const ContactForm = () => {
                 </h3>
               </div>
                */}
-              {/* <span>{result}</span> */}
             </div>
+            <span className="my-3 text-xl font-semibold text-gray-700 dark:text-gray-200">
+              {result}
+            </span>
           </div>
         </div>
       </div>

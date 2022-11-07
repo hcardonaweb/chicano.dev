@@ -29,9 +29,13 @@ const Nav = () => {
         </li>
 
         <li>
-          <Link className="rounded-lg px-3 py-2" href="faqs">
-            ⚡️
-          </Link>
+          <a
+            className="rounded-lg px-3 py-2"
+            href="https://open.spotify.com/playlist/5bDoXj0pzIyZ1hlnUlPxhc?si=87a8f1d74ed34e1b"
+            target="_blank"
+          >
+            🎧
+          </a>
         </li>
       </ul>
     </nav>

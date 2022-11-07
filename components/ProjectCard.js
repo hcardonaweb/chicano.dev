@@ -24,7 +24,7 @@ const ProjectCard = ({ projects }) => {
                 {project.project_type}
               </p>
               <h3 className="text-md text-white">{project.title}</h3>
-              <p className="mt-1 text-sm text-gray-500">
+              <p className="mt-1 text-sm text-gray-400">
                 {project.description}
               </p>
             </div>

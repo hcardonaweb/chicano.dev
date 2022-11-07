@@ -48,7 +48,7 @@ body {
 
 .react {
   color: #fff;
-  background-color: #36d0fa;
+  background-color: #21c1ed;
 }
 
 .shopify {
@@ -69,4 +69,9 @@ body {
 .vercel {
   color: #fff;
   background-color: #f81ce5;
+}
+
+.tech-stack div svg {
+  fill: #9ca3af;
+  max-width: 50px;
 }

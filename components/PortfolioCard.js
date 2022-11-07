@@ -24,7 +24,7 @@ const PortfolioCard = () => {
           Vercel
         </p>
         <h3 className="text-md text-white">chicano.dev</h3>
-        <p className="mt-1 text-sm text-gray-500">This website!</p>
+        <p className="mt-1 text-sm text-gray-400">This website!</p>
       </div>
     </a>
   );
