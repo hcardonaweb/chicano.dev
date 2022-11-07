@@ -73,5 +73,6 @@ body {
 
 .tech-stack div svg {
   fill: #9ca3af;
-  max-width: 50px;
+  width: 35px;
+  height: 50px;
 }
