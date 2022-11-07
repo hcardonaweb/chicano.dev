@@ -1,7 +1,12 @@
 const SocialLinks = () => {
   return (
     <div class="flex gap-6 text-gray-500 sm:mt-0">
-      <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+      <a
+        class="hover:opacity-75"
+        href="https://github.com/hcardonaweb"
+        target="_blank"
+        rel="noreferrer"
+      >
         <span class="sr-only"> GitHub </span>
 
         <svg
@@ -18,7 +23,12 @@ const SocialLinks = () => {
         </svg>
       </a>
 
-      <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+      <a
+        class="hover:opacity-75"
+        href="https://www.instagram.com/chicanodev/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <span class="sr-only"> Instagram </span>
 
         <svg
@@ -35,7 +45,12 @@ const SocialLinks = () => {
         </svg>
       </a>
 
-      <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+      <a
+        class="hover:opacity-75"
+        href="https://www.linkedin.com/in/hectorcardona/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <span class="sr-only"> LinkedIn </span>
 
         <svg
@@ -52,7 +67,12 @@ const SocialLinks = () => {
         </svg>
       </a>
 
-      <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+      <a
+        class="hover:opacity-75"
+        href="https://twitter.com/ChicanoDev"
+        target="_blank"
+        rel="noreferrer"
+      >
         <span class="sr-only"> Twitter </span>
 
         <svg

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <section class="mx-auto max-w-screen-xl mb-10 flex items-center hero">
@@ -20,7 +22,8 @@ const Hero = () => {
             class="inline-block px-7 py-3 bg-transparent text-blue-600 font-medium text-sm leading-snug uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
             data-mdb-ripple="true"
             data-mdb-ripple-color="light"
-            href="#!"
+            href="https://kdmitljkulczzntmmcbn.supabase.co/storage/v1/object/public/portfolio-content/assets/docs/Cardona_Hector_Resume.pdf"
+            target="_blank"
             role="button"
           >
             Resume

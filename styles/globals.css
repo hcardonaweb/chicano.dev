@@ -41,12 +41,32 @@ body {
   background-color: rgba(245, 245, 245, 0.05);
 }
 
-.wordpress {
-  color: rgb(2 132 199);
-  background-color: rgb(224 242 254);
+.nextjs {
+  color: #fff;
+  background-color: #000;
+}
+
+.react {
+  color: #fff;
+  background-color: #36d0fa;
 }
 
 .shopify {
   color: rgb(22 163 74);
   background-color: rgb(220 252 231);
+}
+
+.supabase {
+  color: #fff;
+  background-color: #34b27b;
+}
+
+.wordpress {
+  color: rgb(2 132 199);
+  background-color: rgb(224 242 254);
+}
+
+.vercel {
+  color: #fff;
+  background-color: #f81ce5;
 }
