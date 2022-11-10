@@ -24,7 +24,12 @@ const PortfolioCard = () => {
           Vercel
         </p>
         <h3 className="text-md text-white">chicano.dev</h3>
-        <p className="mt-1 text-sm text-gray-400">This website!</p>
+        <p className="mt-1 text-sm text-gray-400 h-full">
+          This website is a Full Stack Snack! It uses the most performant tools
+          for the best experience. The site is hosted on Vercel while NextJS and
+          React are what power the engine. Supabase brings it all together using
+          its lightning fast API to connect to the Postgres database.
+        </p>
       </div>
     </a>
   );

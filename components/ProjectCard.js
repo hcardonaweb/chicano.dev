@@ -16,7 +16,7 @@ const ProjectCard = ({ projects }) => {
               className="h-60 w-full object-cover object-top"
             />
 
-            <div className="p-4 charcoal-clear">
+            <div className="p-4 charcoal-clear h-full">
               {/* <p className="inline-flex items-center mb-2 py-1 px-2 text-xs capitalize font-medium text-sky-600 bg-sky-100 rounded"> */}
               <p
                 className={`inline-flex items-center mb-2 py-1 px-2 text-xs capitalize font-bold bg-sky-100 ${project.project_type}  rounded`}
