@@ -1,6 +1,8 @@
 import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer aria-label="Site Footer">
       <div className="max-w-custom container mx-auto space-y-12 px-4 py-12">
@@ -17,8 +19,8 @@ const Footer = () => {
           </a>
           <SocialLinks />
         </div>
-        <p className="text-xs text-gray-500">
-          &copy; 2022 Friendly Neighborhood Chicano
+        <p className="text-sm text-gray-500">
+          &copy; {currentYear} Friendly Neighborhood Chicano
         </p>
       </div>
     </footer>
