@@ -5,6 +5,7 @@ const ProjectCard = ({ projects }) => {
       <div className="grid grid-cols md:grid-cols-2 gap-6">
         <PortfolioCard />
         {projects.map((project) => (
+          // add loading state for the card
           <a
             href={project.project_domain}
             target="_blank"

@@ -1,4 +1,5 @@
 import SocialLinks from "./SocialLinks";
+import NowPlaying from "./SpotifyNowPlaying";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,9 +20,12 @@ const Footer = () => {
           </a>
           <SocialLinks />
         </div>
-        <p className="text-sm text-gray-500">
-          &copy; {currentYear} Friendly Neighborhood Chicano
-        </p>
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-end justify-between">
+          <NowPlaying />
+          <p className="text-sm text-gray-500">
+            &copy; {currentYear} Friendly Neighborhood Chicano
+          </p>
+        </div>
       </div>
     </footer>
   );

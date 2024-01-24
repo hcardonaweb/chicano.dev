@@ -125,7 +125,7 @@ const ContactForm = () => {
               </form>
               {/* 
               <div className="text-center">
-                <h3 class="m-auto text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                <h3 className="m-auto text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Thanks for reaching out! <br />
                   <span className="text-blue-600">
                     I will be in touch shortly.
