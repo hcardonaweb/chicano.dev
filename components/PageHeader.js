@@ -5,7 +5,7 @@ const Header = () => {
   const { slug } = router.query;
 
   return (
-    <section>
+    <section className="font-medium text-gray-500">
       <h1>{slug}</h1>
       <h2>Page description</h2>
     </section>

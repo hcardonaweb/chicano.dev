@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -75,4 +76,64 @@ body {
   fill: #9ca3af;
   width: 35px;
   height: 50px;
+}
+
+.eq-bar {
+  transform: scale(1, -1) translate(0, -24px);
+}
+
+.eq-bar--1 {
+  animation-name: short-eq;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+.eq-bar--1 {
+  animation-name: short-eq;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+.eq-bar--2 {
+  animation-name: tall-eq;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.17s;
+}
+
+.eq-bar--3 {
+  animation-name: short-eq;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.34s;
+}
+
+@keyframes short-eq {
+  0% {
+    height: 8px;
+  }
+
+  50% {
+    height: 4px;
+  }
+
+  100% {
+    height: 8px;
+  }
+}
+
+@keyframes tall-eq {
+  0% {
+    height: 16px;
+  }
+
+  50% {
+    height: 6px;
+  }
+
+  100% {
+    height: 16px;
+  }
 }

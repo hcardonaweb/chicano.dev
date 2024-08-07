@@ -1,10 +1,11 @@
 import PortfolioCard from "./PortfolioCard";
 const ProjectCard = ({ projects }) => {
   return (
-    <section id="projects" className="scroll-mt-10">
+    <section id="projects" className="mx-auto max-w-[1100px] scroll-mt-10">
       <div className="grid grid-cols md:grid-cols-2 gap-6">
         <PortfolioCard />
         {projects.map((project) => (
+          // add loading state for the card
           <a
             href={project.project_domain}
             target="_blank"
