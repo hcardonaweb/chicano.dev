@@ -7,7 +7,7 @@ const PortfolioCard = () => {
     >
       <img
         alt="Chicano Dev"
-        src="https://kdmitljkulczzntmmcbn.supabase.co/storage/v1/object/public/portfolio-content/assets/mockups/Chicano-Dev.jpg"
+        src="https://kdmitljkulczzntmmcbn.supabase.co/storage/v1/object/public/portfolio-content/assets/mockups/Chicano-Dev.png"
         className="h-60 w-full object-cover object-top"
       />
       <div className="p-4 charcoal-clear">

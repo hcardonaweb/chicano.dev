@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav
       aria-label="Site Nav"
-      className="lg:w-3/4 container mx-auto flex items-center justify-between my-4 p-5"
+      className="container mx-auto flex items-center justify-between my-4 py-5"
     >
       <a className="inline-flex h-10 w-10 items-center justify-center" href="/">
         <Image
