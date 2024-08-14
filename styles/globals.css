@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -41,7 +42,13 @@ body {
   background-color: rgba(245, 245, 245, 0.05);
 }
 
-.nextjs {
+.figma {
+  color: #fff;
+  background-color: #a259ff;
+}
+
+.nextjs,
+.relume {
   color: #fff;
   background-color: #000;
 }
@@ -59,6 +66,11 @@ body {
 .supabase {
   color: #fff;
   background-color: #34b27b;
+}
+
+.webflow {
+  background-color: #146ef5;
+  color: #fff;
 }
 
 .wordpress {

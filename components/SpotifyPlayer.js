@@ -6,7 +6,11 @@ const SpotifyPlayer = ({ nowPlaying, loading }) => {
   const { albumImageUrl, albumName, artist, songUrl, title } = nowPlaying;
 
   return (
-    <a href={songUrl} target="_blank" className="w-full md:w-1/2 max-w-[350px]">
+    <a
+      href={songUrl}
+      target="_blank"
+      className="w-full md:w-1/2 md:max-w-[350px]"
+    >
       <div className="mb-5 md:mb-0  mt-2 relative z-10 rounded-lg ">
         <FaSpotify
           size={19}
@@ -40,7 +44,27 @@ const SpotifyPlayer = ({ nowPlaying, loading }) => {
                       viewBox="0 0 24 24"
                       fill="#fff"
                     >
-                      {/* SVG rectangles */}
+                      <rect
+                        class="eq-bar eq-bar--1"
+                        x="4"
+                        y="4"
+                        width="2"
+                        height="8"
+                      />
+                      <rect
+                        class="eq-bar eq-bar--2"
+                        x="10.2"
+                        y="4"
+                        width="2"
+                        height="16"
+                      />
+                      <rect
+                        class="eq-bar eq-bar--3"
+                        x="16.3"
+                        y="4"
+                        width="2"
+                        height="11"
+                      />
                     </svg>
 
                     <p className="text-grey-500 transition-all duration-500 text-md leading-6 truncate">

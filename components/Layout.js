@@ -3,9 +3,9 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen md:flex flex-col justify-between scroll-smooth">
+    <div className="min-h-screen flex flex-col justify-between scroll-smooth px-5">
       <Nav />
-      <div className="max-w-custom container mx-auto px-4">
+      <div className="mx-auto container">
         <main className="py-4">{children}</main>
       </div>
       <Footer />

@@ -64,6 +64,7 @@ export default function Home({ projects }) {
         <link rel="icon" href="/chicano-flame.png" />
       </Head>
       <Hero />
+
       <ProjectCard projects={projects} />
     </>
   );
