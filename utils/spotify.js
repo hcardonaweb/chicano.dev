@@ -1,4 +1,3 @@
-import fetch from "isomorphic-unfetch";
 import querystring from "querystring";
 
 const client_id = process.env.SPOTIFY_CLIENT_ID;
@@ -21,8 +20,9 @@ const getAccessToken = async () => {
       refresh_token,
     }),
   });
-
-  return response.json();
+  const data = await response.json();
+  if (!response.ok) console.error('Spotify token error:', data);
+  return data;
 };
 
 export const getNowPlaying = async () => {
