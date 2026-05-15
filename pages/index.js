@@ -39,7 +39,7 @@ export default function Home({ projects }) {
         ></meta>
         <meta
           property="og:description"
-          content="Hi I'm Hector a Front-End Web Developer based out of San Diego, CA."
+          content="Hi I'm Hector a Front-end Engineer based out of San Diego, CA."
         ></meta>
         <meta property="og:image" content="/chicano-dev-meta.png"></meta>
 
@@ -54,7 +54,7 @@ export default function Home({ projects }) {
         ></meta>
         <meta
           property="twitter:description"
-          content="Hi I'm Hector a Front-End Web Developer based out of San Diego, CA."
+          content="Hi I'm Hector a Front-end Engineer based out of San Diego, CA."
         ></meta>
         <meta
           property="twitter:image"

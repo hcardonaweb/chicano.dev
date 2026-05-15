@@ -3,11 +3,13 @@ const PortfolioCard = () => {
     <a
       href="https://github.com/hcardonaweb/chicano.dev"
       target="_blank"
-      className="block overflow-hidden rounded-lg"
+      className="block overflow-hidden rounded-lg bg-zinc-800"
     >
       <img
         alt="Chicano Dev"
         src="https://kdmitljkulczzntmmcbn.supabase.co/storage/v1/object/public/portfolio-content/assets/mockups/Chicano-Dev.png"
+        loading="lazy"
+        decoding="async"
         className="h-60 w-full object-cover object-top"
       />
       <div className="p-4 charcoal-clear">

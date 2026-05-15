@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="m-auto text-center">
         <h1 className="lg:max-w-2xl m-auto text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
           Hello! I'm Hector a
-          <span className="text-blue-600"> front-end developer</span>.
+          <span className="text-blue-600"> Front-end Engineer</span>.
         </h1>
         <div>
           <a

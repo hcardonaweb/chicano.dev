@@ -45,21 +45,21 @@ const SpotifyPlayer = ({ nowPlaying, loading }) => {
                       fill="#fff"
                     >
                       <rect
-                        class="eq-bar eq-bar--1"
+                        className="eq-bar eq-bar--1"
                         x="4"
                         y="4"
                         width="2"
                         height="8"
                       />
                       <rect
-                        class="eq-bar eq-bar--2"
+                        className="eq-bar eq-bar--2"
                         x="10.2"
                         y="4"
                         width="2"
                         height="16"
                       />
                       <rect
-                        class="eq-bar eq-bar--3"
+                        className="eq-bar eq-bar--3"
                         x="16.3"
                         y="4"
                         width="2"
