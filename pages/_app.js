@@ -1,3 +1,7 @@
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
+import "../src/fontawesome/fontawesome.js";
 import "../styles/globals.css";
 
 import * as gtag from "../data/Gtag";

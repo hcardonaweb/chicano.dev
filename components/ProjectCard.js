@@ -47,7 +47,7 @@ const ProjectCard = ({ projects }) => {
     <section id="projects" className="mx-auto scroll-mt-10">
       <div className="container featured-project">
         <div className="relative">
-          <p class="absolute top-2 right-1 inline-flex items-center mb-2 py-1 px-3 mr-2 text-sm capitalize font-bold rounded  bg-zinc-900 ">
+          <p className="absolute top-2 right-1 inline-flex items-center mb-2 py-1 px-3 mr-2 text-sm capitalize font-bold rounded  bg-zinc-900 ">
             New!
           </p>
           <div className="abosolute top-2 right-1 flex justify-between">
@@ -62,25 +62,27 @@ const ProjectCard = ({ projects }) => {
         <a
           href="https://sneakerverse-d55d70.webflow.io/"
           target="_blank"
-          class="block mb-6 overflow-hidden rounded-lg shadow-[0_-20px_50px_rgba(8,_112,_184,_0.7)]"
+          className="block mb-6 overflow-hidden rounded-lg shadow-[0_-20px_50px_rgba(8,_112,_184,_0.7)] bg-zinc-800"
         >
           <img
             alt="Chicano Dev"
             src="https://kdmitljkulczzntmmcbn.supabase.co/storage/v1/object/public/portfolio-content/assets/mockups/Sneakerverse.png"
-            class="h-60 lg:h-[450px] w-full object-cover object-top"
+            loading="lazy"
+            decoding="async"
+            className="h-60 lg:h-[450px] w-full object-cover object-top"
           />
-          <div id="yourDivId" class="p-4 charcoal-clear">
-            <p class="inline-flex items-center mb-2 py-1 px-2 mr-2 text-xs capitalize font-bold webflow rounded">
+          <div id="yourDivId" className="p-4 charcoal-clear">
+            <p className="inline-flex items-center mb-2 py-1 px-2 mr-2 text-xs capitalize font-bold webflow rounded">
               Webflow
             </p>
-            <p class="inline-flex items-center mb-2 py-1 px-2 mr-2 text-xs capitalize font-bold relume rounded">
+            <p className="inline-flex items-center mb-2 py-1 px-2 mr-2 text-xs capitalize font-bold relume rounded">
               Relume
             </p>
-            <p class="inline-flex items-center mb-2 py-1 px-2 mr-2 text-xs capitalize font-bold figma rounded">
+            <p className="inline-flex items-center mb-2 py-1 px-2 mr-2 text-xs capitalize font-bold figma rounded">
               Figma
             </p>
-            <h3 class="text-md text-white">SneakerVerse</h3>
-            <p class="mt-1 text-sm text-gray-400 h-full">
+            <h3 className="text-md text-white">SneakerVerse</h3>
+            <p className="mt-1 text-sm text-gray-400 h-full">
               This demo site is The Real MVP (Minimum Viable Product)! The
               purpose of this site is to showcase a fundamental understanding of
               Webflow, Relume, & Figma. Experience the Sneakerverse! And maybe
@@ -97,11 +99,14 @@ const ProjectCard = ({ projects }) => {
           <a
             href={project.project_domain}
             target="_blank"
-            className="block overflow-hidden rounded-lg"
+            className="block overflow-hidden rounded-lg bg-zinc-800"
+            key={project.id}
           >
             <img
               alt={project.title}
               src={project.project_img_url}
+              loading="lazy"
+              decoding="async"
               className="h-60 w-full object-cover object-top"
             />
 
