@@ -3,6 +3,7 @@ import SpotifyLoading from "./SpotifyLoading";
 import SpotifyNotPlaying from "./SpotifyNotPlaying";
 
 const SpotifyPlayer = ({ nowPlaying, loading }) => {
+  console.log('nowPlaying', nowPlaying)
   const { albumImageUrl, albumName, artist, songUrl, title } = nowPlaying;
 
   return (
@@ -18,21 +19,21 @@ const SpotifyPlayer = ({ nowPlaying, loading }) => {
           className="absolute top-3 right-3"
         />
 
-        <div className="transition-all duration-500 charcoal-clear transition-all duration-500 rounded-lg p-3 space-y-6 sm:space-y-8 lg:space-y-6 xl:space-y-8">
+        <div className="transition-all duration-500 charcoal-clear rounded-lg p-3 space-y-6 sm:space-y-8 lg:space-y-6 xl:space-y-8 shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
           {loading ? (
             <SpotifyLoading />
           ) : (
             <>
-              {nowPlaying === "Currently Not Playing" ? (
+              {!nowPlaying.isPlaying ? (
                 <SpotifyNotPlaying />
               ) : (
-                <div className="flex items-end space-x-4">
+                <div className="flex items-end space-x-4 ">
                   <img
                     src={albumImageUrl}
                     loading="lazy"
                     decoding="async"
                     alt={albumName}
-                    className="flex-none rounded-md bg-zinc-800"
+                    className="flex-none rounded-md bg-zinc-800 shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
                     width="75"
                     height="75"
                   />
