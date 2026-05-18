@@ -84,9 +84,20 @@ body {
 }
 
 .tech-stack div svg {
-  fill: #9ca3af;
+  fill: rgb(107, 114, 128);
   width: 35px;
   height: 50px;
+  flex-shrink: 0;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(-1 * var(--slide-width))); }
+}
+
+.tech-stack-track {
+  animation: marquee 14s linear infinite;
+  will-change: transform;
 }
 
 .eq-bar {
